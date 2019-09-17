@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrayUi.Designer.cs">
+      <DependentUpon>ArrayUi.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataTypeUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ArrayUi.resx">
+      <DependentUpon>ArrayUi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataTypeUi.resx">
       <DependentUpon>DataTypeUi.cs</DependentUpon>
     </EmbeddedResource>
