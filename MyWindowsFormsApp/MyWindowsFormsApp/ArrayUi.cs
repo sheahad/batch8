@@ -35,6 +35,7 @@ namespace MyWindowsFormsApp
             }
 
             MessageBox.Show(message);
+            showRichTextBox.Text = message;
 
 
 
