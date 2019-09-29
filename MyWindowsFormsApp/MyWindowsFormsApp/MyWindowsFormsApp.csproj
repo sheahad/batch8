@@ -52,6 +52,7 @@
     <Compile Include="ArrayUi.Designer.cs">
       <DependentUpon>ArrayUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="BLL\ItemManager.cs" />
     <Compile Include="DataTypeUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +79,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ItemRepository.cs" />
     <EmbeddedResource Include="ArrayUi.resx">
       <DependentUpon>ArrayUi.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,5 +117,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
