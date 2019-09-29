@@ -72,7 +72,6 @@ namespace MyWindowsFormsApp
             }
 
             Display();
-
         }
 
         private void updateButton_Click(object sender, EventArgs e)
@@ -130,11 +129,8 @@ namespace MyWindowsFormsApp
                     isAdded = true;
                 }
 
-                
-
                 //Close
                 sqlConnection.Close();
-
 
             }
             catch (Exception exeption)
@@ -143,8 +139,7 @@ namespace MyWindowsFormsApp
             }
 
             return isAdded;
-        }
-        
+        }        
         private void Display()
         {
             try
@@ -289,7 +284,6 @@ namespace MyWindowsFormsApp
                 MessageBox.Show(exeption.Message);
             }
         }
-
         private bool IsNameExist(string name)
         {
             bool isExist = false;
