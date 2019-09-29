@@ -38,6 +38,8 @@
             this.deleteButton = new System.Windows.Forms.Button();
             this.idTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.updateButton = new System.Windows.Forms.Button();
+            this.searchButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.showDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -127,6 +129,26 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "ID";
             // 
+            // updateButton
+            // 
+            this.updateButton.Location = new System.Drawing.Point(298, 122);
+            this.updateButton.Name = "updateButton";
+            this.updateButton.Size = new System.Drawing.Size(75, 23);
+            this.updateButton.TabIndex = 0;
+            this.updateButton.Text = "Update";
+            this.updateButton.UseVisualStyleBackColor = true;
+            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
+            // 
+            // searchButton
+            // 
+            this.searchButton.Location = new System.Drawing.Point(379, 122);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(75, 23);
+            this.searchButton.TabIndex = 0;
+            this.searchButton.Text = "Search";
+            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            // 
             // ItemUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -139,6 +161,8 @@
             this.Controls.Add(this.priceTextBox);
             this.Controls.Add(this.idTextBox);
             this.Controls.Add(this.nameTextBox);
+            this.Controls.Add(this.searchButton);
+            this.Controls.Add(this.updateButton);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.showButton);
             this.Controls.Add(this.addButton);
@@ -162,5 +186,7 @@
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.TextBox idTextBox;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button updateButton;
+        private System.Windows.Forms.Button searchButton;
     }
 }
