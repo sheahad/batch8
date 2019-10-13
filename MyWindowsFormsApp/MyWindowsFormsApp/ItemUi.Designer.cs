@@ -145,7 +145,7 @@
             // 
             // searchButton
             // 
-            this.searchButton.Location = new System.Drawing.Point(379, 122);
+            this.searchButton.Location = new System.Drawing.Point(378, 86);
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(75, 23);
             this.searchButton.TabIndex = 0;
@@ -163,10 +163,6 @@
             this.itemComboBox.Size = new System.Drawing.Size(121, 21);
             this.itemComboBox.TabIndex = 4;
             this.itemComboBox.ValueMember = "Id";
-            // 
-            // itemBindingSource
-            // 
-            this.itemBindingSource.DataSource = typeof(MyWindowsFormsApp.Model.Item);
             // 
             // ItemUi
             // 
