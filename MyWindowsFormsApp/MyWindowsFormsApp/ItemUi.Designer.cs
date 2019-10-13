@@ -164,10 +164,6 @@
             this.itemComboBox.TabIndex = 4;
             this.itemComboBox.ValueMember = "Id";
             // 
-            // itemBindingSource
-            // 
-            this.itemBindingSource.DataSource = typeof(MyWindowsFormsApp.Model.Item);
-            // 
             // ItemUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
