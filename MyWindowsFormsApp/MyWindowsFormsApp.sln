@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWindowsFormsApp", "MyWindowsFormsApp\MyWindowsFormsApp.csproj", "{05EE4BC2-6FCF-4A2F-8E57-67B457F904B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitialization", "ObjectInitialization\ObjectInitialization.csproj", "{77A4ADB9-1577-47CF-8496-4E2EFA586BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWindowsFormsApp.Model", "MyWindowsFormsApp.Model\MyWindowsFormsApp.Model.csproj", "{91329DDC-9E2F-4B68-B474-8F9B28FD78DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitlyTypedLocalVariable", "ImplicitlyTypedLocalVariable\ImplicitlyTypedLocalVariable.csproj", "{2C3798DB-174E-47FA-BC4B-CA3FBE051936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnonymusTypeObject", "AnnonymusTypeObject\AnnonymusTypeObject.csproj", "{A4778E51-4FA2-4066-9DC4-928CFC16DC1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnonymusMethod", "AnnonymusMethod\AnnonymusMethod.csproj", "{B449D333-DCDA-4040-AC67-4C224829F863}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{05EE4BC2-6FCF-4A2F-8E57-67B457F904B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05EE4BC2-6FCF-4A2F-8E57-67B457F904B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05EE4BC2-6FCF-4A2F-8E57-67B457F904B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A4ADB9-1577-47CF-8496-4E2EFA586BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A4ADB9-1577-47CF-8496-4E2EFA586BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A4ADB9-1577-47CF-8496-4E2EFA586BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A4ADB9-1577-47CF-8496-4E2EFA586BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91329DDC-9E2F-4B68-B474-8F9B28FD78DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91329DDC-9E2F-4B68-B474-8F9B28FD78DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91329DDC-9E2F-4B68-B474-8F9B28FD78DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91329DDC-9E2F-4B68-B474-8F9B28FD78DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3798DB-174E-47FA-BC4B-CA3FBE051936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3798DB-174E-47FA-BC4B-CA3FBE051936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3798DB-174E-47FA-BC4B-CA3FBE051936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3798DB-174E-47FA-BC4B-CA3FBE051936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4778E51-4FA2-4066-9DC4-928CFC16DC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4778E51-4FA2-4066-9DC4-928CFC16DC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4778E51-4FA2-4066-9DC4-928CFC16DC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4778E51-4FA2-4066-9DC4-928CFC16DC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B449D333-DCDA-4040-AC67-4C224829F863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B449D333-DCDA-4040-AC67-4C224829F863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B449D333-DCDA-4040-AC67-4C224829F863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B449D333-DCDA-4040-AC67-4C224829F863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
